@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Executar empresa de vendas",
+            "request": "launch",
+            "mainClass": "br.edu.empresa.App",
+            "console": "integratedTerminal",
+            "env": {
+                "DB_URL": "jdbc:postgresql://localhost:5432/empresa_vendas",
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "trust"
+            }
+        }
+    ]
+}
